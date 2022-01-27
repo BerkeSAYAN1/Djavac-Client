@@ -21,5 +21,8 @@ After started server or servers, you can start client gui program. Firstly you d
 </dependency>
 ```
 
-####Screenshots
+#### Screenshots
 
+![Alt text](screenshots/Client-1.jpg?raw=true "Empty Stage")
+![Alt text](screenshots/Client-2.jpg?raw=true "First Stage")
+![Alt text](screenshots/Client-3.jpg?raw=true "Second Stage")
