@@ -10,8 +10,8 @@ must install Java Jdk and Java same version. Djavac tested in `Java JDK 1.8.0 20
 ## Client GUI
 
 After started server or servers, you can start client gui program. Firstly you distrubute java file. When you push the
-distrubute button wait for distrubuting your java file. Then push button excute button and wait for result. NOTE: You
-must write your own code and you should throw the insede of client files.
+distribute button wait for distributing your java file. Then push button excute button and wait for result. NOTE: You
+must write your own code, and you should throw the inside of client files.
 
 #### Example Usage
 All functions which tagged with `@distrubuted` annotation will try to excecute in server and returns the result.
@@ -153,7 +153,7 @@ public class ClientMain2 {
 
 #### Dependencies
 
-[javaparser-core](https://github.com/javaparser/javaparser) version `3.23.1`
+[javaparser-core](https://mvnrepository.com/artifact/com.github.javaparser/javaparser-core) version `3.23.1`
 
 ```xml
 
