@@ -8,14 +8,10 @@ public class FindingPath {
 	
 	public static String changethepath() {
 		String directory=System.getProperty("user.dir");
-		String twobackslash="\\";
-		String replacedDirectory="";
 		String val="";
-		if(directory.indexOf("\"") >= -1) {
-			replacedDirectory=directory.replace("\"", "\\");
-			
-		}
-		val=replacedDirectory+"\\";
+
+
+		val=directory.replace("\"", "\\")+"\'";
 		return val;
 	}
 }
